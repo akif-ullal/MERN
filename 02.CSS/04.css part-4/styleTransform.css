@@ -1,0 +1,38 @@
+.div{
+    height: 60px;
+    width: 150px;
+
+    margin: 10px auto;
+    border: 2px solid black;
+    background-color: burlywood;
+    text-align: center;
+    
+    
+}
+
+.div:nth-of-type(2n)
+{
+    background-color: aqua;
+}
+
+#div1{
+    margin-top: 50px;
+    transform: rotate(30deg);
+}
+
+#div2{
+    transform: scale(0.5);
+    transform: scale(0.5,2);
+    transform: scaley(2);
+    transform:scalex(2);
+}
+
+#div3{
+    transform: translate(100px,50px);
+    transform: translatex(100px);
+    /* transform: translatey(100px); */
+}
+
+#div4{
+    transform:skew(-30deg);
+}

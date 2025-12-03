@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+}
+
+.box-color{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.flash{
+    background-color: white;
+}
+
+.done{
+    background-color: red;
+}

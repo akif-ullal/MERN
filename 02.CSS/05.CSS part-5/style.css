@@ -1,0 +1,23 @@
+.parent{
+    height:600px;
+    width:600px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction:row;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap-reverse; */
+    align-items: flex-start;
+    
+}
+
+.child{
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#div3{
+    /* flex-basis: 10px; */
+    flex-grow: 2;
+}

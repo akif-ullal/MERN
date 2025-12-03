@@ -1,0 +1,33 @@
+h1{
+    display:inline;
+}
+
+/* this as problem is slowing height  for top and bottom also padding was override bcz its a inline elemnt */
+span{
+    color:rgb(63, 247, 7);
+    font-weight: bold;
+    height: 150px;
+    width: 500px;
+    border: 2px solid black;
+   
+    padding:15px;
+    margin:15px;
+}
+
+.blockToInline{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+   
+    padding:15px;
+    margin:15px;
+    background-color: pink;
+    /* this does not didect the css propeties */
+    /* display:inline; */
+    display: inline-block;
+
+}
+
+#hide{
+    display: none;
+}

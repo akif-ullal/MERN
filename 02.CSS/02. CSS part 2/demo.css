@@ -1,0 +1,56 @@
+#login{
+    background-color: red;
+    color:white
+}
+
+.myclass{
+    background-color: blue;
+    color:white;
+}
+
+/* descendant selector */
+div a{
+    text-decoration: none;
+}
+
+/* adjacent sibling combinator */
+/* p+h3{
+    background-color: red;
+
+} */
+
+/* child combinator */
+/* div>p{
+    background-color: aquamarine;
+} */
+
+/* attribute selector */
+/* we also use */
+/* a[href] */
+a[ href="/home"]
+{
+    color: yellow;
+}
+
+/* pseudo class */
+button:hover{
+    background-color: black;
+}
+
+h1:active{
+    background-color: blueviolet;
+}
+
+input[type="radio"]:checked+label{
+    color: red;
+}
+
+div:nth-of-type(1)
+{
+    color: brown;
+}
+
+/* pseudo elemnt are there in note */
+/* 1.::first_letter  */
+/* 2.::first-line */
+/* 3.::selection->to color change during mouse drag on paragrah */

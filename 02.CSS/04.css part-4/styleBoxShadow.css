@@ -1,0 +1,12 @@
+div{
+    height: 300px;
+    width: 300px;
+
+    background-color: red;
+    border:2px solid black;
+    transition: box-shadow 1s ease-in-out 0.2s;
+}
+
+#boxShadow:hover{
+    box-shadow: 10px 10px 15px green;
+}
