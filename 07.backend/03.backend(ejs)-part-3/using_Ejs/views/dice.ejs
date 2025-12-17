@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dice rolls</title>
+</head>
+<body>
+    <% if(dice==6) { %>
+        <h1>roll the dice :<%= dice%></h1>
+        <h2>nice roll again </h2>
+   
+    <% } else { %>
+        <h1>roll the dice :<%= dice%></h1>
+    <% } %>
+    <ul>
+        <% for(let follower of followers) { %>
+        <li><%= follower %></li>
+        <% } %>
+    </ul>
+    
+
+
+</body>
+</html>
